@@ -1,0 +1,32 @@
+# Dépendances du projet — Détection de mots-clés
+# Polytech Dijon — Traitement du Signal 2025-2026
+#
+# Installation :
+#   python -m venv venv
+#   source venv/bin/activate        # Linux / macOS
+#   venv\Scripts\activate           # Windows
+#   pip install -r requirements.txt
+#
+# Note Linux/macOS : sounddevice nécessite PortAudio
+#   Linux  : sudo apt install portaudio19-dev
+#   macOS  : brew install portaudio
+
+# Traitement du signal audio
+librosa>=0.10.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualisation
+matplotlib>=3.7.0
+
+# Enregistrement micro (démo temps réel uniquement)
+sounddevice>=0.4.6
+
+# Notebook de démonstration
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
